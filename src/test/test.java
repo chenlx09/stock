@@ -30,7 +30,7 @@ public class test {
 		                String stock = EntityUtils.toString(entity1);
 		                EntityUtils.consume(entity1);
 		                
-		                //System.out.println(stock);
+		                //System.out.println(stock);≤‚ ‘
 		                String[] datas = stock.split("~");
 		                System.out.println(datas[1] + ":" + datas[3] + " " + datas[32] + "%");
 		                  String buy = "buy: " + datas[9] + '[' + datas[10] + "] " + 
